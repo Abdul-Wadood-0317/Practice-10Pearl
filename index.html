@@ -705,7 +705,7 @@
 
 
 <!-- Function in JS -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>My First Web page</title>
@@ -714,15 +714,54 @@
         </style>
     </head>
     <body>
-        <h1>JavaScript Functions</h1>
+        <h1 id="demo">JavaScript Functions</h1>
         <p>Click following button to call a Function</p>
+        <button onclick="myFunction()">Click Me</button>
 
 
         
         <script>
-            function sayHello{
-                alert("Hello World")
+            function myFunction(){
+                document.getElementById("demo").innerHTML="Paragraph Changed";
+                
             }
+            
         </script>
     </body>
+</html> -->
+
+
+
+<!-- If else statement in JS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web Page</title>
+    <style>
+        p{
+            background-color: #eee;
+            font-size: 24px;
+            padding: 30px;
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript If else statement</h1>
+    <p id="demo"></p>
+
+
+
+
+    <script>
+        var age=20;
+        if (age>20){
+            document.getElementById("demo").innerHTML="Qualify for driving";
+        }else{
+            document.getElementById("demo").innerHTML="Not Qualify for driving";
+        }
+    </script>
+</body>
 </html>
