@@ -169,7 +169,7 @@ div{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 
 }
 
@@ -282,13 +282,14 @@ body {
 .right img {
     height: 100%;
     width: 100%;
+    
 }
 
-@media (max-width:600px) {
-.nav{
-    padding: 0 6vw;
-    height: 60px;
-}
+@media (max-width:550px) {
+    .nav{
+        padding: 0 6vw;
+        height: 60px;
+    }
 
 .nav h2 {
     font-size: 5.1vw;
@@ -321,7 +322,7 @@ body {
 }
 
 .right {
-    width: 100%;
+    width: 90%;
     height: 55%;
     /* background-color: blue; */
 }
